@@ -76,21 +76,7 @@ Try it here: **https://code-sync-live.vercel.app/**
 6. **Visit the app:**
    http://localhost:5173/
 
-### **Option 2: Docker Deployment**
-
-1. Install **Docker Desktop**.
-2. Pull the prebuilt images:
-   ```bash
-   docker pull sahilatahar/code-sync-server:latest
-   docker pull sahilatahar/code-sync-client:latest
-   ```
-3. Run the containers:
-   ```bash
-   docker run -d -p 3000:3000 --name code-sync-server sahilatahar/code-sync-server:latest
-   docker run -d -p 5173:5173 --name code-sync-client sahilatahar/code-sync-client:latest
-   ```
-4. Open the app in your browser:
-   http://localhost:5173/
+ 
 
 ---
 
