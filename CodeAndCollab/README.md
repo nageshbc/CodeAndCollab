@@ -1,130 +1,119 @@
 # Code Sync
 
-![logo](https://github.com/sahilatahar/Code-Sync/assets/100127570/d1ff7f52-a692-4d51-b281-358aeab9156e)
+Code Sync is a powerful real-time collaborative code editor designed to make teamwork effortless. Multiple users can join a shared workspace using a unique room ID and work together on files, folders, executed code, drawings, and chats—all synchronized instantly.
 
-A collaborative, real-time code editor where users can seamlessly code together. It provides a platform for multiple users to enter a room, share a unique room ID, and collaborate on code simultaneously.
+## ✨ Key Features
 
-![GitHub contributors](https://img.shields.io/github/contributors/sahilatahar/Code-Sync?style=for-the-badge&color=48bf21)
-![GitHub Repo stars](https://img.shields.io/github/stars/sahilatahar/Code-Sync?style=for-the-badge)
-![GitHub issues](https://img.shields.io/github/issues/sahilatahar/Code-Sync?style=for-the-badge&color=d7af2d)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/sahilatahar/Code-Sync?style=for-the-badge&color=f47373)
-![GitHub License](https://img.shields.io/github/license/sahilatahar/Code-Sync?style=for-the-badge&color=e67234)
-![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fsahilatahar%2FCode-Sync&label=Repo%20Views&countColor=%2337d67a&labelStyle=upper)
+- **Real-Time Code Collaboration** – Edit multiple files simultaneously with instant updates.
+- **Project Management** – Create, rename, delete, and organize files & folders.
+- **Full Project Export** – Download the complete workspace as a ZIP archive.
+- **Room-Based Collaboration** – Generate and share unique room IDs.
+- **Automatic Syntax Highlighting** – Language-aware formatting for clean and readable code.
+- **Integrated Code Execution** – Run code inside the environment with live output.
+- **Instant Sync** – Every change reflects across all connected users without delay.
+- **User Activity Awareness** – See who joins, leaves, or edits a file.
+- **Presence Indicators** – Online/offline status for all participants.
+- **Built-in Chat** – Communicate instantly with collaborators.
+- **Live Cursor & Editing Tooltip** – Track who is editing what.
+- **Smart Suggestions** – Auto-completion tailored to language context.
+- **Customizable Editor** – Choose fonts, themes, and sizes.
+- **Collaborative Drawing Board** – Sketch ideas visually in real time.
+- **AI Code Assistant** – Generate, modify, or insert code using integrated AI.
 
-## 🔮 Features
+## 🚀 Live Demo
 
-- 💻 Real-time collaboration on code editing across multiple files
-- 📁 Create, open, edit, save, delete, and organize files and folders
-- 💾 Option to download the entire codebase as a zip file
-- 🚀 Unique room generation with room ID for collaboration
-- 🌍 Comprehensive language support for versatile programming
-- 🌈 Syntax highlighting with auto-language detection
-- 🚀 Code Execution inside collaboration environment
-- ⏱️ Instant updates and synchronization
-- 📣 Notifications for user join/leave events
-- 👥 Online/offline user presence list
-- 💬 Real-time group chatting
-- 🎩 Real-time tooltip for users currently editing
-- 💡 Auto suggestion based on programming language
-- 🔠 Adjustable font size & font family
-- 🎨 Multiple themes
-- 🎨 Collaborative Drawing (real-time)
-- 🤖 Copilot: AI-powered code assistant
+Try it here: **https://code-sync-live.vercel.app/**
 
-## 🚀 Live Preview
+## 🛠️ Technology Stack
 
-https://code-sync-live.vercel.app/
+- **Frontend:** React, TypeScript, React Router, Tailwind CSS
+- **Backend:** Node.js, Express.js
+- **Real-Time Engine:** Socket.io
+- **Tools & Deployment:** Docker, Vercel
 
-## 💻 Tech Stack
+---
 
-React • TypeScript • React Router • Tailwind CSS • Node.js • Express.js • Socket.io • Git • Docker • Vercel
+## ⚙️ Installation Guide
 
-## ⚙️ Installation
+### **Option 1: Manual Installation**
 
-### Method 1: Manual Installation
-
-1. **Fork this repository**
-2. **Clone:**
+1. **Fork the repository** on GitHub.
+2. **Clone your copy:**
    ```bash
    git clone https://github.com/<your-username>/Code-Sync.git
    ```
-3. **Create `.env` files**
+3. **Create environment files** in both the frontend and backend.
 
-   **Frontend**
+   **Frontend .env**
    ```bash
-   VITE_BACKEND_URL=<your_server_url>
+   VITE_BACKEND_URL=<your_backend_url>
    ```
 
-   **Backend**
+   **Backend .env**
    ```bash
    PORT=3000
    ```
 
-4. **Install dependencies**
+4. **Install dependencies:**
    ```bash
-   npm install   # Run in both client and server
+   npm install    # Run this inside both /client and /server
    ```
 
-5. **Start the servers**
+5. **Start the development servers:**
 
-   **Frontend:**
+   **Client:**
    ```bash
    cd client
    npm run dev
    ```
 
-   **Backend:**
+   **Server:**
    ```bash
    cd server
    npm run dev
    ```
 
-6. **Open:**
+6. **Visit the app:**
    http://localhost:5173/
 
-### 🎥 Setup Help
-   https://youtu.be/zVHwOmU0aqo
+### **Option 2: Docker Deployment**
 
----
-
-### Method 2: Docker Installation
-
-1. Install Docker Desktop
-2. Pull images:
+1. Install **Docker Desktop**.
+2. Pull the prebuilt images:
    ```bash
    docker pull sahilatahar/code-sync-server:latest
    docker pull sahilatahar/code-sync-client:latest
    ```
-3. Run containers:
+3. Run the containers:
    ```bash
    docker run -d -p 3000:3000 --name code-sync-server sahilatahar/code-sync-server:latest
    docker run -d -p 5173:5173 --name code-sync-client sahilatahar/code-sync-client:latest
    ```
-4. Visit:
+4. Open the app in your browser:
    http://localhost:5173/
 
 ---
 
-## 🔮 Next Release Features
+## 📌 Planned Enhancements
 
-- Admin Permission System
+- Role-based permissions and administrator controls.
 
-## 🤝 Contribute
+## 🤝 How to Contribute
 
-Read the contribution guidelines in `CONTRIBUTING.md`.
+Contributions are welcome! Please refer to `CONTRIBUTING.md` for guidelines.
 
-## 🌟 Support
+## 📜 License
 
-If this project helps you, consider starring ⭐ the repo!
+Distributed under the **MIT License**. See the `LICENSE` file for details.
 
-## 🧾 License
+## 🙌 Credits & Resources
 
-MIT License — see `LICENSE`.
+Special thanks to the tools and libraries that power this project:
+- **Piston API** – For code execution support
+- **Tldraw** – For collaborative drawing capabilities
+- **Pollinations AI** – For AI-driven features
 
-## 🌟 Appreciation for Resources
+---
 
-Special thanks to:
-
-- **Piston API (EMKC)**
-- **Tldraw**
-- **Pollinations AI**
+## 👨‍💻 Developer
+**Developed and maintained by Nagesh.**
