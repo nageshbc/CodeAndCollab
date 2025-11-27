@@ -84,9 +84,7 @@ Try it here: **https://code-sync-live.vercel.app/**
 
 - Role-based permissions and administrator controls.
 
-## 🤝 How to Contribute
-
-Contributions are welcome! Please refer to `CONTRIBUTING.md` for guidelines.
+ 
 
 ## 📜 License
 
