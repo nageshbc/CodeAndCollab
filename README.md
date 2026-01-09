@@ -165,12 +165,6 @@ The project follows a client–server architecture:
 
 ---
 
-## 7. Live Demo
-
-[https://code-sync-live.vercel.app/](https://code-sync-live.vercel.app/)
-
----
-
 ## 8. Use Cases
 
 * Academic group projects
