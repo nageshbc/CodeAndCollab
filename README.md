@@ -1,13 +1,22 @@
-# 🚀 CodeNCollab  
-### *A Virtual Coding Environment*
+The README looks **narrow, cluttered, and hard to scan** because it is **too long, overly nested, and not visually balanced** on GitHub.
+
+Below is a **clean, well-spaced, GitHub-friendly README.md** that renders **wide, readable, and professional**.
+
+You can **replace your current README.md completely with this**.
 
 ---
 
-## 📌 Project Information
+````md
+# 🚀 CodeNCollab  
+### A Virtual Coding Environment
 
-- **Project Name:** **CodeNCollab**
-- **Project Title:** *A Virtual Coding Environment*
-- **Developers:**
+---
+
+## 📌 Project Details
+
+- **Project Name:** CodeNCollab  
+- **Title:** A Virtual Coding Environment  
+- **Developers:**  
   - Nagesh B C  
   - Namith  
   - Praveen N Patil 
@@ -18,227 +27,152 @@
 
 ---
 
-## 📖 1. Project Overview
+## 📖 Project Overview
 
-**CodeNCollab** is a **web-based real-time collaborative code editor** that enables multiple users to work together within a shared virtual workspace. The platform supports collaborative code editing, file and folder management, live code execution, instant messaging, and visual collaboration using a drawing board.
+**CodeNCollab** is a web-based real-time collaborative code editor that allows multiple users to work together in a shared workspace.  
+It supports collaborative code editing, file and folder management, code execution, chat communication, and a collaborative drawing board.
 
-✨ All changes are synchronized instantly across connected users.  
-🎓 Designed for academic, educational, and team-based software development use cases.  
-💻 Simulates modern industry-level collaborative coding environments.
-
----
-
-## 🎯 2. Project Objectives
-
-- 🧑‍💻 Provide a **real-time collaborative coding environment**
-- 🔁 Enable **simultaneous multi-user editing**
-- 📂 Support structured **file and folder management**
-- ▶️ Allow **live code execution** with real-time output
-- 💬 Facilitate communication using **chat and presence indicators**
-- 🤖 Integrate **AI-assisted code generation**
-- ⚡ Ensure **low-latency synchronization** across users
+✔ Real-time synchronization  
+✔ Multi-user collaboration  
+✔ Academic and team-oriented use  
 
 ---
 
-## ✨ 3. Key Features
+## 🎯 Objectives
 
-### 🧩 3.1 Real-Time Code Collaboration
-- ✏️ Multiple users can edit the same file concurrently  
-- 🔄 Instant synchronization using WebSockets  
-- 👀 Live cursor tracking and editor activity indicators  
-
-### 🏠 3.2 Room-Based Collaboration
-- 🔑 Unique Room ID for each collaborative workspace  
-- 👥 Only users with the same Room ID can join a session  
-
-### 📁 3.3 File and Folder Management
-- ➕ Create, rename, and delete files and folders  
-- 🗂️ Supports multi-file project structures  
-
-### ▶️ 3.4 Integrated Code Execution
-- ⚙️ Execute code directly inside the editor  
-- 📤 Real-time output display  
-- 🌐 Multi-language execution support  
-
-### 🤖 3.5 AI Code Assistant
-- ✨ Generates code based on user prompts  
-- 🛠️ Assists in modifying or inserting code  
-- 🚀 Improves development efficiency  
-
-### 💬 3.6 Built-in Chat
-- 🗨️ Real-time text-based communication  
-- 🤝 Helps coordinate collaboration activities  
-
-### 👤 3.7 Presence and Activity Awareness
-- 🟢 Online / 🔴 Offline user status  
-- 🔔 Join and leave notifications  
-- ✍️ Active editor indicators  
-
-### 🎨 3.8 Syntax Highlighting and Customization
-- 🧠 Automatic syntax highlighting  
-- 🎨 Customizable themes, fonts, and editor settings  
-
-### 🖌️ 3.9 Collaborative Drawing Board
-- 📐 Shared whiteboard for diagrams and sketches  
-- 🔄 Real-time synchronization of drawings  
-
-### 📦 3.10 Project Export
-- ⬇️ Download the entire workspace as a ZIP file  
-- 📝 Useful for backups and academic submissions  
+- Enable real-time collaborative coding  
+- Support simultaneous multi-user editing  
+- Provide file and folder management  
+- Allow live code execution with output  
+- Enable chat and user presence tracking  
+- Integrate AI-assisted code generation  
 
 ---
 
-## 🏗️ 4. System Architecture
+## ✨ Key Features
 
-The project follows a **client–server architecture**:
-
-- 🖥️ **Frontend:**  
-  Handles user interface, code editor, file explorer, and interactions  
-
-- 🗄️ **Backend:**  
-  Manages rooms, users, real-time synchronization, and execution requests  
-
-- 🔗 **Communication:**  
-  Real-time updates handled using WebSockets  
+- 🧑‍💻 Real-time collaborative code editing  
+- 📂 File and folder management  
+- 🔑 Room-based collaboration using Room ID  
+- ▶️ Integrated code execution  
+- 💬 Built-in real-time chat  
+- 👥 User presence and activity indicators  
+- 🎨 Syntax highlighting and editor customization  
+- 🖌️ Collaborative drawing board  
+- 📦 Project export as ZIP  
+- 🤖 AI-powered code assistant  
 
 ---
 
-## 🛠️ 5. Technology Stack
+## 🏗️ System Architecture
 
-### 🎨 Frontend
+- **Frontend:** User interface, editor, file explorer  
+- **Backend:** Room management, synchronization, execution  
+- **Communication:** Real-time updates using WebSockets  
+
+---
+
+## 🛠️ Technology Stack
+
+### Frontend
 - React  
 - TypeScript  
-- React Router  
 - Tailwind CSS  
 
-### ⚙️ Backend
+### Backend
 - Node.js  
 - Express.js  
 
-### 🔁 Real-Time Engine
+### Real-Time
 - Socket.io  
 
-### 🔧 Tools and Services
+### Tools & Services
 - Docker  
 - Vercel  
-- Piston API (Code Execution)  
-- Pollinations AI (AI Code Generation)  
-- Tldraw (Collaborative Drawing Board)  
-
-## ⚙️ 6. Installation and Setup
-
-### ✅ 6.1 Prerequisites
-- Node.js (v18 or later)
-- npm
-- Modern web browser
+- Piston API  
+- Pollinations AI  
+- Tldraw  
 
 ---
 
-### 🧩 6.2 Installation Steps
+## ⚙️ Installation Steps
 
-1. **Fork the repository** on GitHub.
+### Prerequisites
+- Node.js (v18 or later)  
+- npm  
+- Web browser  
 
-2. **Clone the repository:**
-   ```bash
-   git clone https://github.com/<your-username>/CodeNCollab.git
+### Installation
+
+```bash
+git clone https://github.com/<your-username>/CodeNCollab.git
+cd CodeNCollab
 ````
 
-3. **Navigate to the project root directory:**
+#### Install Backend Dependencies
 
-   ```bash
-   cd CodeNCollab
-   ```
+```bash
+cd server
+npm install
+```
 
-4. **Install backend dependencies:**
+#### Install Frontend Dependencies
 
-   ```bash
-   cd server
-   npm install
-   ```
-
-5. **Install frontend dependencies:**
-
-   ```bash
-   cd ../client
-   npm install
-   ```
-
-
-## ▶️ 7. Steps to Execute the Project
-
-Follow these steps **after successful installation**.
+```bash
+cd ../client
+npm install
+```
 
 ---
 
-### 🖥️ Step 1: Start the Backend Server
+## ▶️ Steps to Execute the Project
 
-1. Open a terminal.
-2. Navigate to the backend directory:
+### Start Backend Server
 
-   ```bash
-   cd server
-   ```
-3. Start the backend server:
+```bash
+cd server
+npm run dev
+```
 
-   ```bash
-   npm run dev
-   ```
-4. Backend runs on:
+Backend runs at: `http://localhost:3000`
 
-   ```
-   http://localhost:3000
-   ```
+### Start Frontend Application
 
-### 🌐 Step 2: Start the Frontend Application
+```bash
+cd client
+npm run dev
+```
 
-1. Open a new terminal window.
-2. Navigate to the frontend directory:
-
-   ```bash
-   cd client
-   ```
-3. Start the frontend development server:
-
-   ```bash
-   npm run dev
-   ```
-4. Frontend runs on:
-
-   ```
-   http://localhost:5173
-   ```
-
-### 🔑 Step 3: Access the Application
-
-1. Open a web browser.
-2. Visit:
-
-   ```
-   http://localhost:5173
-   ```
-3. The **CodeNCollab** application will load successfully.
+Frontend runs at: `http://localhost:5173`
 
 ---
 
-### 👥 Step 4: Use the Application
+## 🌐 Access the Application
 
-* Create or join a collaboration room using a Room ID.
-* Add files and folders.
-* Collaborate with multiple users in real time.
-* Execute code and view output.
-* Use chat and drawing board features.
-* Export the project if required.
+Open a browser and visit:
+
+```
+http://localhost:5173
+```
 
 ---
 
-### ✅ Successful Execution
+## 👥 How to Use
 
-If:
+* Create or join a room using Room ID
+* Add files and folders
+* Collaborate in real time
+* Execute code and view output
+* Use chat and drawing board
+* Export project if required
 
-* `npm install` completes without errors
-* Both servers are running
-* The application loads in the browser
+---
 
-then the project is **successfully installed and executed**.
+## 🎓 Conclusion
 
+**CodeNCollab** demonstrates real-time collaborative software development using modern web technologies.
+It integrates coding, execution, communication, and AI assistance into a unified platform suitable for academic evaluation.
 
+---
+
+```
