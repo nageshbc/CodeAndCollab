@@ -10,8 +10,8 @@
 - **Developers:**
   - Nagesh B C  
   - Namith  
-  - Praveen N  
-  - Patil Rakesh S  
+  - Praveen N Patil 
+  - Rakesh S  
 - **Project Guide:** Priya N V  
 - **Institute:** Bangalore Institute of Technology  
 - **Department:** Information Science and Engineering  
@@ -125,16 +125,6 @@ The project follows a **client–server architecture**:
 - Pollinations AI (AI Code Generation)  
 - Tldraw (Collaborative Drawing Board)  
 
----
-Correct.
-Below is the **corrected and complete execution section**, with **`npm install` explicitly included** and clearly separated.
-This version is **academically accurate** and suitable for submission.
-
-You can **replace your existing installation/execution part with this**.
-
----
-
-````md
 ## ⚙️ 6. Installation and Setup
 
 ### ✅ 6.1 Prerequisites
