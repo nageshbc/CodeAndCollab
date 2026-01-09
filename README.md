@@ -126,18 +126,136 @@ The project follows a **client–server architecture**:
 - Tldraw (Collaborative Drawing Board)  
 
 ---
+Correct.
+Below is the **corrected and complete execution section**, with **`npm install` explicitly included** and clearly separated.
+This version is **academically accurate** and suitable for submission.
 
+You can **replace your existing installation/execution part with this**.
+
+---
+
+````md
 ## ⚙️ 6. Installation and Setup
 
 ### ✅ 6.1 Prerequisites
-- Node.js (v18 or later)  
-- npm  
-- Modern web browser  
+- Node.js (v18 or later)
+- npm
+- Modern web browser
+
+---
 
 ### 🧩 6.2 Installation Steps
 
-1. **Fork the repository** on GitHub  
+1. **Fork the repository** on GitHub.
 
 2. **Clone the repository:**
    ```bash
    git clone https://github.com/<your-username>/CodeNCollab.git
+````
+
+3. **Navigate to the project root directory:**
+
+   ```bash
+   cd CodeNCollab
+   ```
+
+4. **Install backend dependencies:**
+
+   ```bash
+   cd server
+   npm install
+   ```
+
+5. **Install frontend dependencies:**
+
+   ```bash
+   cd ../client
+   npm install
+   ```
+
+---
+
+## ▶️ 7. Steps to Execute the Project
+
+Follow these steps **after successful installation**.
+
+---
+
+### 🖥️ Step 1: Start the Backend Server
+
+1. Open a terminal.
+2. Navigate to the backend directory:
+
+   ```bash
+   cd server
+   ```
+3. Start the backend server:
+
+   ```bash
+   npm run dev
+   ```
+4. Backend runs on:
+
+   ```
+   http://localhost:3000
+   ```
+
+---
+
+### 🌐 Step 2: Start the Frontend Application
+
+1. Open a new terminal window.
+2. Navigate to the frontend directory:
+
+   ```bash
+   cd client
+   ```
+3. Start the frontend development server:
+
+   ```bash
+   npm run dev
+   ```
+4. Frontend runs on:
+
+   ```
+   http://localhost:5173
+   ```
+
+---
+
+### 🔑 Step 3: Access the Application
+
+1. Open a web browser.
+2. Visit:
+
+   ```
+   http://localhost:5173
+   ```
+3. The **CodeNCollab** application will load successfully.
+
+---
+
+### 👥 Step 4: Use the Application
+
+* Create or join a collaboration room using a Room ID.
+* Add files and folders.
+* Collaborate with multiple users in real time.
+* Execute code and view output.
+* Use chat and drawing board features.
+* Export the project if required.
+
+---
+
+### ✅ Successful Execution
+
+If:
+
+* `npm install` completes without errors
+* Both servers are running
+* The application loads in the browser
+
+then the project is **successfully installed and executed**.
+
+---
+
+
