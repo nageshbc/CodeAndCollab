@@ -1,12 +1,3 @@
-The README looks **narrow, cluttered, and hard to scan** because it is **too long, overly nested, and not visually balanced** on GitHub.
-
-Below is a **clean, well-spaced, GitHub-friendly README.md** that renders **wide, readable, and professional**.
-
-You can **replace your current README.md completely with this**.
-
----
-
-````md
 # 🚀 CodeNCollab  
 ### A Virtual Coding Environment
 
