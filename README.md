@@ -163,7 +163,6 @@ The project follows a **client–server architecture**:
    npm install
    ```
 
----
 
 ## ▶️ 7. Steps to Execute the Project
 
@@ -190,8 +189,6 @@ Follow these steps **after successful installation**.
    http://localhost:3000
    ```
 
----
-
 ### 🌐 Step 2: Start the Frontend Application
 
 1. Open a new terminal window.
@@ -210,8 +207,6 @@ Follow these steps **after successful installation**.
    ```
    http://localhost:5173
    ```
-
----
 
 ### 🔑 Step 3: Access the Application
 
@@ -245,7 +240,5 @@ If:
 * The application loads in the browser
 
 then the project is **successfully installed and executed**.
-
----
 
 
